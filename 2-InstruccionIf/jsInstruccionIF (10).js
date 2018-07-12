@@ -3,17 +3,17 @@ function mostrar()
 	//Genero el número RANDOM entre 1 y 10 
 	var RANDOM;
 
-	RANDOM=document.getElementById("FormIngreso").innerHTML=
+	document.getElementById("FormIngreso").innerHTML=
 	
-	Math.floor(Math.random() * 11);
+	RANDOM=Math.floor(Math.random() * 11);
 
-	if (RANDOM==10&&RANDOM<=9) {
+	if (RANDOM<=10&&RANDOM>=9) {
 		alert("Exelente");
 
 	}
 
 	else{
-		if (RANDOM>9&&RANDOM<=4) {
+		if (RANDOM<9&&RANDOM>=4) {
 			alert("APROBÓ");
 
 		}
