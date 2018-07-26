@@ -5,6 +5,16 @@ var sexo = prompt("ingrese f ó m .");
 
 
 
-document.getElementById('Sexo').value=sexo;
+	while(sexo!="f"&&sexo!="m"){
+
+
+		sexo = prompt("sexo incorrecto, ingrese nuevamente");
+
+	}
+		
+		document.getElementById('Sexo').value=sexo;
+
+
+
 
 }//FIN DE LA FUNCIÓN
