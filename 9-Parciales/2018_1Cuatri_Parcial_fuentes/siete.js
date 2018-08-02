@@ -71,6 +71,8 @@ function mostrar()
 				var contador=0;
 				var masViejo;
 				var masViejoNombre;
+				var peorNota;
+				var peorNotaSexo;
 
 					nombre=prompt("ingrese el nombre");
 
@@ -100,6 +102,21 @@ function mostrar()
 							sexo=prompt("ingresar la sexo");
 							
 						}	
+
+
+
+							if(contador==1)
+							{
+								peorNota=nota;
+								peorNotaSexo=sexo;
+								masViejo=edad;
+								masViejoNombre=nombre;
+							}
+
+							else
+							{
+								
+							}
 
 			
 
